@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
   </head>
@@ -9,7 +10,9 @@
     <div class="container flex bg-black">
       <div class="left">
         <div class="home bg-grey rounded m-1 p-1">
-          <div class="logo invert"><img src="logo.svg" alt="logo" /></div>
+          <div class="logo invert">
+            <img src="logo.svg" alt="logo" />
+          </div>
           <ul>
             <li><img class="invert" src="home.svg" alt="home" />Home</li>
             <li><img class="invert" src="search.svg" alt="search" />Search</li>
@@ -19,6 +22,21 @@
           <div class="heading">
             <img class="invert" src="playlist.svg" alt="playlist" />
             <h2>Your Library</h2>
+          </div>
+          <div class="songList">
+            <ul>
+              <!-- <li>
+                <img class="invert" src="music.svg" alt="" />
+                <div class="info">
+                  <div>Song Name</div>
+                  <div>Song Artist</div>
+                </div>
+                <div class="playnow">
+                  <span>Play Now</span>
+                  <img class="invert" src="play.svg" alt="" />
+                </div>
+              </li> -->
+            </ul>
           </div>
           <div class="footer">
             <div>
@@ -207,6 +225,20 @@
               <img src="playlist1.png" alt="" />
               <h2>Happy Hits!</h2>
               <p>Hits to boost your mood and fill you with happiness</p>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="aboveBar">
+              <div class="songinfo"></div>
+              <div class="songButtons">
+                <img id="previous" src="prevsong.svg" alt="" />
+                <img id="play" src="play.svg" alt="" />
+                <img id="next" src="nextsong.svg" alt="" />
+              </div>
+              <div class="songtime"></div>
             </div>
           </div>
         </div>
