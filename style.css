@@ -293,6 +293,10 @@ padding-top: 10px;
         top: 25px;
         width: 29px;
     }
+    .songinfo,
+    .songtime {
+        width: auto;
+    }
     .right{
         width: 100vw;
         margin: 0;
